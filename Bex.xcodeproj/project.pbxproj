@@ -22,6 +22,7 @@
 		520BA0BB1800D60000AA13A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520BA09A1800D60000AA13A3 /* UIKit.framework */; };
 		520BA0C31800D60000AA13A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 520BA0C11800D60000AA13A3 /* InfoPlist.strings */; };
 		520BA0C51800D60000AA13A3 /* BexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 520BA0C41800D60000AA13A3 /* BexTests.m */; };
+		520BA0D2180122B400AA13A3 /* JMKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520BA0D1180122B400AA13A3 /* JMKTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		520BA0C01800D60000AA13A3 /* BexTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BexTests-Info.plist"; sourceTree = "<group>"; };
 		520BA0C21800D60000AA13A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		520BA0C41800D60000AA13A3 /* BexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BexTests.m; sourceTree = "<group>"; };
+		520BA0D1180122B400AA13A3 /* JMKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMKTableViewController.m; sourceTree = "<group>"; };
+		520BA0D318012F3700AA13A3 /* JKMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKMTableViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,10 +118,12 @@
 		520BA09C1800D60000AA13A3 /* Bex */ = {
 			isa = PBXGroup;
 			children = (
+				520BA0D318012F3700AA13A3 /* JKMTableViewController.h */,
 				520BA0A51800D60000AA13A3 /* JKMAppDelegate.h */,
 				520BA0A61800D60000AA13A3 /* JKMAppDelegate.m */,
 				520BA0A81800D60000AA13A3 /* Main.storyboard */,
 				520BA0AB1800D60000AA13A3 /* JKMFirstViewController.h */,
+				520BA0D1180122B400AA13A3 /* JMKTableViewController.m */,
 				520BA0AC1800D60000AA13A3 /* JKMFirstViewController.m */,
 				520BA0AE1800D60000AA13A3 /* JKMSecondViewController.h */,
 				520BA0AF1800D60000AA13A3 /* JKMSecondViewController.m */,
@@ -205,6 +210,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "John Meeker";
 				TargetAttributes = {
+					520BA0921800D60000AA13A3 = {
+						DevelopmentTeam = ERKC685565;
+					};
 					520BA0B61800D60000AA13A3 = {
 						TestTargetID = 520BA0921800D60000AA13A3;
 					};
@@ -257,6 +265,7 @@
 			files = (
 				520BA0A31800D60000AA13A3 /* main.m in Sources */,
 				520BA0B01800D60000AA13A3 /* JKMSecondViewController.m in Sources */,
+				520BA0D2180122B400AA13A3 /* JMKTableViewController.m in Sources */,
 				520BA0A71800D60000AA13A3 /* JKMAppDelegate.m in Sources */,
 				520BA0AD1800D60000AA13A3 /* JKMFirstViewController.m in Sources */,
 			);
@@ -385,6 +394,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bex/Bex-Prefix.pch";
 				INFOPLIST_FILE = "Bex/Bex-Info.plist";
@@ -398,6 +408,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Bex/Bex-Prefix.pch";
 				INFOPLIST_FILE = "Bex/Bex-Info.plist";
@@ -467,6 +478,7 @@
 				520BA0CA1800D60000AA13A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		520BA0CB1800D60000AA13A3 /* Build configuration list for PBXNativeTarget "BexTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +487,7 @@
 				520BA0CD1800D60000AA13A3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
