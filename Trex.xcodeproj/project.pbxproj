@@ -21,7 +21,7 @@
 		520BA0BA1800D60000AA13A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520BA0961800D60000AA13A3 /* Foundation.framework */; };
 		520BA0BB1800D60000AA13A3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520BA09A1800D60000AA13A3 /* UIKit.framework */; };
 		520BA0C31800D60000AA13A3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 520BA0C11800D60000AA13A3 /* InfoPlist.strings */; };
-		520BA0C51800D60000AA13A3 /* BexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 520BA0C41800D60000AA13A3 /* BexTests.m */; };
+		520BA0C51800D60000AA13A3 /* TrexTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 520BA0C41800D60000AA13A3 /* TrexTests.m */; };
 		520BA0D2180122B400AA13A3 /* JMKTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520BA0D1180122B400AA13A3 /* JMKTableViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -40,10 +40,10 @@
 		520BA0961800D60000AA13A3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		520BA0981800D60000AA13A3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		520BA09A1800D60000AA13A3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		520BA09E1800D60000AA13A3 /* Bex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Bex-Info.plist"; sourceTree = "<group>"; };
+		520BA09E1800D60000AA13A3 /* Trex-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Trex-Info.plist"; sourceTree = "<group>"; };
 		520BA0A01800D60000AA13A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		520BA0A21800D60000AA13A3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		520BA0A41800D60000AA13A3 /* Bex-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bex-Prefix.pch"; sourceTree = "<group>"; };
+		520BA0A41800D60000AA13A3 /* Trex-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Trex-Prefix.pch"; sourceTree = "<group>"; };
 		520BA0A51800D60000AA13A3 /* JKMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JKMAppDelegate.h; sourceTree = "<group>"; };
 		520BA0A61800D60000AA13A3 /* JKMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKMAppDelegate.m; sourceTree = "<group>"; };
 		520BA0A91800D60000AA13A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		520BA0B81800D60000AA13A3 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		520BA0C01800D60000AA13A3 /* BexTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BexTests-Info.plist"; sourceTree = "<group>"; };
 		520BA0C21800D60000AA13A3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		520BA0C41800D60000AA13A3 /* BexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BexTests.m; sourceTree = "<group>"; };
+		520BA0C41800D60000AA13A3 /* TrexTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TrexTests.m; sourceTree = "<group>"; };
 		520BA0D1180122B400AA13A3 /* JMKTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JMKTableViewController.m; sourceTree = "<group>"; };
 		520BA0D318012F3700AA13A3 /* JKMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKMTableViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,8 +88,8 @@
 		520BA08A1800D60000AA13A3 = {
 			isa = PBXGroup;
 			children = (
-				520BA09C1800D60000AA13A3 /* Bex */,
-				520BA0BE1800D60000AA13A3 /* BexTests */,
+				520BA09C1800D60000AA13A3 /* Trex */,
+				520BA0BE1800D60000AA13A3 /* TrexTests */,
 				520BA0951800D60000AA13A3 /* Frameworks */,
 				520BA0941800D60000AA13A3 /* Products */,
 			);
@@ -115,7 +115,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		520BA09C1800D60000AA13A3 /* Bex */ = {
+		520BA09C1800D60000AA13A3 /* Trex */ = {
 			isa = PBXGroup;
 			children = (
 				520BA0D318012F3700AA13A3 /* JKMTableViewController.h */,
@@ -130,27 +130,27 @@
 				520BA0B11800D60000AA13A3 /* Images.xcassets */,
 				520BA09D1800D60000AA13A3 /* Supporting Files */,
 			);
-			path = Bex;
+			path = Trex;
 			sourceTree = "<group>";
 		};
 		520BA09D1800D60000AA13A3 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				520BA09E1800D60000AA13A3 /* Bex-Info.plist */,
+				520BA09E1800D60000AA13A3 /* Trex-Info.plist */,
 				520BA09F1800D60000AA13A3 /* InfoPlist.strings */,
 				520BA0A21800D60000AA13A3 /* main.m */,
-				520BA0A41800D60000AA13A3 /* Bex-Prefix.pch */,
+				520BA0A41800D60000AA13A3 /* Trex-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		520BA0BE1800D60000AA13A3 /* BexTests */ = {
+		520BA0BE1800D60000AA13A3 /* TrexTests */ = {
 			isa = PBXGroup;
 			children = (
-				520BA0C41800D60000AA13A3 /* BexTests.m */,
+				520BA0C41800D60000AA13A3 /* TrexTests.m */,
 				520BA0BF1800D60000AA13A3 /* Supporting Files */,
 			);
-			path = BexTests;
+			path = TrexTests;
 			sourceTree = "<group>";
 		};
 		520BA0BF1800D60000AA13A3 /* Supporting Files */ = {
@@ -218,7 +218,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 520BA08E1800D60000AA13A3 /* Build configuration list for PBXProject "Bex" */;
+			buildConfigurationList = 520BA08E1800D60000AA13A3 /* Build configuration list for PBXProject "Trex" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -275,7 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				520BA0C51800D60000AA13A3 /* BexTests.m in Sources */,
+				520BA0C51800D60000AA13A3 /* TrexTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -396,8 +396,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Bex/Bex-Prefix.pch";
-				INFOPLIST_FILE = "Bex/Bex-Info.plist";
+				GCC_PREFIX_HEADER = "Trex/Trex-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Trex/Trex-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -410,8 +410,8 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Bex/Bex-Prefix.pch";
-				INFOPLIST_FILE = "Bex/Bex-Info.plist";
+				GCC_PREFIX_HEADER = "Trex/Trex-Prefix.pch";
+				INFOPLIST_FILE = "$(SRCROOT)/Trex/Trex-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -421,19 +421,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bex.app/Bex";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Trex.app/Trex";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Bex/Bex-Prefix.pch";
+				GCC_PREFIX_HEADER = "Trex/Trex-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "BexTests/BexTests-Info.plist";
+				INFOPLIST_FILE = "TrexTests/TrexTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -444,15 +444,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Bex.app/Bex";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Trex.app/Trex";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Bex/Bex-Prefix.pch";
-				INFOPLIST_FILE = "BexTests/BexTests-Info.plist";
+				GCC_PREFIX_HEADER = "Trex/Trex-Prefix.pch";
+				INFOPLIST_FILE = "TrexTests/TrexTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -462,7 +462,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		520BA08E1800D60000AA13A3 /* Build configuration list for PBXProject "Bex" */ = {
+		520BA08E1800D60000AA13A3 /* Build configuration list for PBXProject "Trex" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				520BA0C61800D60000AA13A3 /* Debug */,
